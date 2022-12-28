@@ -79,7 +79,7 @@ export default function Home() {
                                 </Input>
                                 <Input
                                     onChange={(e) => setValue(e.target.value)}
-                                    h={"40px"} w={"230px"} placeholder={"Wealth"} fontWeight={"semibold"}
+                                    h={"40px"} w={"230px"} placeholder={"Wealth"}  fontWeight={"semibold"}
                                 ></Input>
                                 <Spacer/>
 
