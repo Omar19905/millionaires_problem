@@ -1,5 +1,17 @@
 import '../styles/globals.css'
+import {ChakraProvider} from '@chakra-ui/react'
+import {ChainId, ThirdwebProvider} from "@thirdweb-dev/react";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const activeChainId = ChainId.Goerli;
+
+function MyApp({Component, pageProps}) {
+    return (
+        <ThirdwebProvider desiredChainId={activeChainId}>
+            <ChakraProvider>
+                <Component {...pageProps} />
+            </ChakraProvider>
+        </ThirdwebProvider>
+    )
 }
+
+export default MyApp

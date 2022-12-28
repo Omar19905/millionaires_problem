@@ -83,6 +83,12 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-image: radial-gradient(circle at right,#f3d380 0%,#fff8e9 20%)!important;
+
+}
+
+code{
+  min-width: 900px;
 }
 
 body {

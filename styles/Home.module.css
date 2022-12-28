@@ -18,6 +18,16 @@
   font-family: var(--font-mono);
 }
 
+.enter{
+  background-color: transparent !important;
+  min-width:160px !important;
+  height :40px !important;
+  border-radius: 7px !important;
+  color: #000 !important;
+  width:160px !important;
+  border: none !important;
+}
+
 .description a {
   display: flex;
   justify-content: center;
